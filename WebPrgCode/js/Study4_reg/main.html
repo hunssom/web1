@@ -1,0 +1,31 @@
+<!DOCTYPE thml>
+<html>
+    <head>
+        <meta charset="utf-8"/>        
+    </head>
+    <body>
+        <script>        
+            //var tRegExp = /\w+/            
+            //document.write(tRegExp.exec('abcdefg'));
+            //document.write("<br />");
+            //document.write('abcdefg'.match(tRegExp));
+            //document.write("<br />");
+            //
+            //var tRegExpRep = new RegExp('def');
+            //document.write('abcdefgdef'.replace(tRegExpRep, 'KKK'));
+            //document.write("<br />");
+
+            //var tRegExpAll = /\w/g
+            //document.write('abcdefg'.match(tRegExpAll));
+            //document.write("<br />");
+            //document.write('abcdefg'.replace(tRegExpAll, 'good'));
+            //document.write("<br />");
+
+            var tRegRep2 = /(\w+)-(\w+)/g
+            document.write('123-4567'.replace(tRegRep2,"$2-$1"));
+            document.write("<br />");
+
+        </script>
+    </body>
+
+</html>
